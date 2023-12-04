@@ -4,6 +4,7 @@ namespace AocProgram
 {
     class Program
     {
+        //test git push
         static void Main(string[] args)
         {
             bool endApp = false;
