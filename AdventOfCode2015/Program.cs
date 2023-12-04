@@ -4,7 +4,6 @@ namespace AocProgram
 {
     class Program
     {
-        //test git push
         static void Main(string[] args)
         {
             bool endApp = false;
@@ -88,6 +87,11 @@ namespace AocProgram
                     case 9:
                         if (part == 1) { Day09.Part1(); }
                         else if (part == 2) { Day09.Part2(); }
+                        break;
+
+                    case 10:
+                        if (part == 1) { Day10.Part1(); }
+                        else if (part == 2) { Day10.Part2(); }
                         break;
 
                     default:
