@@ -109,6 +109,11 @@ namespace AocProgram
                         else if (part == 2) { Day13.Part2(); }
                         break;
 
+                    case 14:
+                        if (part == 1) { Day14.Part1(); }
+                        else if (part == 2) { Day14.Part2(); }
+                        break;
+
                     default:
                         break;
                 }
