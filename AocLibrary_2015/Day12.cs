@@ -83,11 +83,12 @@ namespace AocLibrary_2015
 
         private static long GetSum(JObject o, string avoid = null)
         {
+            
             bool shouldAvoid = o.Properties()
                 .Select(a => a.Value).OfType<JValue>()
                 .Select(v => v.Value).Contains(avoid);
             if (shouldAvoid) return 0;
-
+            
 
             long sum = 0;
 
