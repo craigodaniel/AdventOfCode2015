@@ -13,7 +13,7 @@ namespace AdventOfCode2015.Solutions
         // --- Day 8: Matchsticks ---
         // https://adventofcode.com/2015/day/8
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_8_input.txt";
         //private static string fileName = "2015_8_input_test.txt";
         private static string[] lines = File.ReadAllLines(fileDir + "\\" + fileName);

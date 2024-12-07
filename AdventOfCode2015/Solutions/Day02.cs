@@ -5,7 +5,7 @@
         //---Day 2: I Was Told There Would Be No Math ---
         //https://adventofcode.com/2015/day/2
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_2_input.txt";
         private static string[] inputs = File.ReadAllLines(fileDir + "\\" + fileName);
 

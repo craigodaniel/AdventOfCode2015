@@ -17,7 +17,7 @@ namespace AdventOfCode2015.Solutions
         // Part 2 Sum all numbers but ignore any object with property value "red"
         // 65402
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_12_input.txt";
         private static string input = File.ReadAllText(fileDir + "\\" + fileName);
 

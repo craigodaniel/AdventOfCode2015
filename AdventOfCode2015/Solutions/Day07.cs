@@ -6,7 +6,7 @@ namespace AdventOfCode2015.Solutions
         // --- Day 7: Some Assembly Required ---
         // https://adventofcode.com/2015/day/7
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_7_input.txt";
         private static string[] lines = File.ReadAllLines(fileDir + "\\" + fileName);
         public static void Part1()

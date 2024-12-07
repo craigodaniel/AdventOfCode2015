@@ -11,7 +11,7 @@ namespace AdventOfCode2015.Solutions
         // --- Day 5: Doesn't He Have Intern-Elves For This? ---
         // https://adventofcode.com/2015/day/5
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_5_input.txt";
         private static string[] inputs = File.ReadAllLines(fileDir + "\\" + fileName);
         public static void Part1()

@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AocLib_2015\" />
+    <Compile Remove="AocLib_2015\**" />
+    <EmbeddedResource Remove="AocLib_2015\**" />
+    <None Remove="AocLib_2015\**" />
   </ItemGroup>
 
   <ItemGroup>

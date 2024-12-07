@@ -5,7 +5,7 @@
         //--- Day 3: Perfectly Spherical Houses in a Vacuum ---
         //https://adventofcode.com/2015/day/3
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName;
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "2015_3_input.txt";
         private static string inputs = File.ReadAllText(fileDir + "\\" + fileName);
         public static void Part1()
