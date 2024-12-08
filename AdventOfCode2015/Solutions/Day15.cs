@@ -13,8 +13,8 @@ namespace AdventOfCode2015.Solutions
         // --- Day 15: Science for Hungry People ---
         // https://adventofcode.com/2015/day/15
         //
-        // Part 1 runtime: 93.2855ms. The answer is: 222870
-        // Part 2 runtime: 84.7356ms. The answer is: 117936
+        // Part 1 runtime: 13.7462ms. The answer is: 222870
+        // Part 2 runtime: 5.6908ms. The answer is: 117936
         //
         // Comments: 
         // Nested for loops go brrrrrt!
@@ -36,11 +36,11 @@ namespace AdventOfCode2015.Solutions
 
             for (int i1 = 0; i1 <= 100; i1++)
             {
-                for (int i2 = 0;i2 <= 100; i2++)
+                for (int i2 = 0;i2 <= 100 - i1; i2++)
                 {
-                    for (int i3 = 0; i3 <= 100; i3++)
+                    for (int i3 = 0; i3 <= 100 - i1 - i2; i3++)
                     {
-                        for(int i4 = 0; i4 <= 100; i4++)
+                        for(int i4 = 0; i4 <= 100 - i1 - i2 - i3; i4++)
                         {
                             if (i1 + i2 + i3 + i4 == 100)
                             {
@@ -80,11 +80,11 @@ namespace AdventOfCode2015.Solutions
 
             for (int i1 = 0; i1 <= 100; i1++)
             {
-                for (int i2 = 0; i2 <= 100; i2++)
+                for (int i2 = 0; i2 <= 100 - i1; i2++)
                 {
-                    for (int i3 = 0; i3 <= 100; i3++)
+                    for (int i3 = 0; i3 <= 100 - i1 - i2; i3++)
                     {
-                        for (int i4 = 0; i4 <= 100; i4++)
+                        for (int i4 = 0; i4 <= 100 - i1 - i2 - i3; i4++)
                         {
                             if (i1 + i2 + i3 + i4 == 100)
                             {
