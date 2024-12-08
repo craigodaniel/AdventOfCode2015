@@ -17,7 +17,7 @@ namespace AdventOfCode2015.Solutions
         //
         // Comments: 
 
-        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\AocInputs";
+        private static string fileDir = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName + "\\Inputs";
         private static string fileName = "dayTemplate_sample.txt";
         //private static string fileName = "dayTemplate_actual.txt";
         private static string[] lines = File.ReadAllLines(fileDir + "\\" + fileName);
